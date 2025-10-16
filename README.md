@@ -41,8 +41,13 @@
 
 </div>
 
+# 🤖 LLM Quickstart
 
-# 🤖 Quickstart
+1. Clone the repo `git clone https://github.com/browser-use/browser-use`
+2. Direct your favorite coding agent (Cursor, Claude, ChatGPT …) to [Agents.md](https://docs.browser-use.com/llms-full.txt)
+3. Prompt away!
+
+# 👋 Human Quickstart
 
 With uv (Python>=3.11):
 
