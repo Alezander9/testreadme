@@ -124,7 +124,7 @@ See [more examples](https://docs.browser-use.com/examples) and give us a star!
 
 <br/><br/>
 
-## 📖 Integrations, cloud hosting, secrets, custom tools, MCP, and more on our [Docs ↗](https://docs.browser-use.com)
+## 📖 Integrations, hosting, custom tools, MCP, and more on our [Docs ↗](https://docs.browser-use.com)
 
 <br/>
 
