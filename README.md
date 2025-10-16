@@ -49,8 +49,12 @@
 
 # 👋 Human Quickstart
 
-With uv (Python>=3.11):
+**Create environment with [uv](https://docs.astral.sh/uv/) (Python>=3.11):**
+```bash
+uv venv --python 3.12
+```
 
+**Install Browser-Use package**
 ```bash
 #  We ship every day - use the latest version!
 uv pip install browser-use
