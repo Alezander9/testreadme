@@ -126,22 +126,8 @@ See [more examples](https://docs.browser-use.com/examples) and give us a star!
 
 
 <br/><br/>
-## MCP Integration
 
-This gives Claude Desktop access to browser automation tools for web scraping, form filling, and more. See the [MCP docs](https://docs.browser-use.com/customize/mcp-server).
-```json
-{
-  "mcpServers": {
-    "browser-use": {
-      "command": "uvx",
-      "args": ["browser-use[cli]", "--mcp"],
-      "env": {
-        "OPENAI_API_KEY": "sk-..."
-      }
-    }
-  }
-}
-```
+# Integrations, cloud hosting, secrets, custom tools, MCP, and more on our [Documentation](https://docs.browser-use.com)
 
 <div align="center">
   
