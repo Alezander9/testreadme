@@ -43,8 +43,8 @@
 
 # 🤖 LLM Quickstart
 
-1. Clone the repo `git clone https://github.com/browser-use/browser-use`
-2. Direct your favorite coding agent (Cursor, Claude, ChatGPT …) to [Agents.md](https://docs.browser-use.com/llms-full.txt)
+1. Clone this repo
+2. Direct your favorite coding agent (Cursor, ClaudeS, etc) to [Agents.md](https://docs.browser-use.com/llms-full.txt)
 3. Prompt away!
 
 # 👋 Human Quickstart
@@ -61,15 +61,15 @@ source .venv/bin/activate
 uv pip install browser-use
 ```
 
-**3. Download chromium using playwright's shortcut:**
-```bash
-uvx playwright install chromium --with-deps --no-shell
-```
-
-**4. Get your API key from [Browser Use Cloud](https://cloud.browser-use.com/dashboard/api) and add it to your `.env` file (new signups get $10 free credits):**
+**3. Get your API key from [Browser Use Cloud](https://cloud.browser-use.com/dashboard/api) and add it to your `.env` file (new signups get $10 free credits):**
 ```
 # .env
 BROWSER_USE_API_KEY=your-key
+```
+
+**4. Download chromium using playwright's shortcut:**
+```bash
+uvx playwright install chromium --with-deps --no-shell
 ```
 
 **5. Run your first agent:**
@@ -91,7 +91,7 @@ Check out the [library docs](https://docs.browser-use.com) for more!
 
 Want to bypass anti-bot detection or run a fleet of agents on the cloud? Use our hosted stealth browsers.
 
-**Follow the first four steps above, and pass in a Browser made with the `use_cloud` parameter.**
+**Follow the first three steps above, and pass in a Browser made with the `use_cloud` parameter.**
 ```python
 from browser_use import Agent, Browser, ChatBrowserUse
 
