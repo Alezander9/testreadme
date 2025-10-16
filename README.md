@@ -35,17 +35,6 @@ STARS
 
 <div align="center">
 
-
-
-
-</div>
-
-
-
-
-
-<div align="center">
-
 <!-- Keep these links. Translations will automatically update with the README. -->
 [Deutsch](https://www.readme-i18n.com/browser-use/browser-use?lang=de) |
 [Español](https://www.readme-i18n.com/browser-use/browser-use?lang=es) |
@@ -57,6 +46,8 @@ STARS
 [中文](https://www.readme-i18n.com/browser-use/browser-use?lang=zh)
 
 </div>
+
+</br>
 
 # 🤖 LLM Quickstart
 
