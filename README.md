@@ -49,31 +49,30 @@
 
 # 👋 Human Quickstart
 
-**Create environment with [uv](https://docs.astral.sh/uv/) (Python>=3.11):**
+**1. Create environment with [uv](https://docs.astral.sh/uv/) (Python>=3.11):**
 ```bash
 uv venv --python 3.12
+source .venv/bin/activate
 ```
 
-**Install Browser-Use package**
+**2. Install Browser-Use package:**
 ```bash
 #  We ship every day - use the latest version!
 uv pip install browser-use
 ```
 
-Download chromium using playwright's shortcut:
-
+**3. Download chromium using playwright's shortcut:**
 ```bash
 uvx playwright install chromium --with-deps --no-shell
 ```
 
-Get your API key from [Browser Use Cloud](https://cloud.browser-use.com/dashboard/api) and add it to your `.env` file (new signups get $10 free credits via OAuth or $1 via email):
-
-```bash
+**4. Get your API key from [Browser Use Cloud](https://cloud.browser-use.com/dashboard/api) and add it to your `.env` file (new signups get $10 free credits):**
+```
+# .env
 BROWSER_USE_API_KEY=your-key
 ```
 
-Run your first agent:
-
+**5. Run your first agent:**
 ```python
 from browser_use import Agent, ChatBrowserUse
 
@@ -84,32 +83,34 @@ agent = Agent(
 agent.run_sync()
 ```
 
-Check out the [library docs](https://docs.browser-use.com) and [cloud docs](https://docs.cloud.browser-use.com) for more settings.
+Check out the [library docs](https://docs.browser-use.com) for more!
 
+<br/><br/>
 
-## Stealth Browser Infrastructure
+# Stealth Browser Infrastructure
 
-Want to bypass Cloudflare, or any other anti-bot protection?
+Want to bypass anti-bot detection or run a fleet of agents on the cloud? Use our hosted stealth browsers.
 
-Simply go to [Browser Use Cloud](https://docs.cloud.browser-use.com) grab a `BROWSER_USE_API_KEY` and use the `use_cloud` parameter.
-
+**Follow the first four steps above, and pass in a Browser made with the `use_cloud` parameter.**
 ```python
-from browser_use import Agent, Browser
-from browser_use import ChatBrowserUse
+from browser_use import Agent, Browser, ChatBrowserUse
 
-# Use Browser-Use cloud browser service
 browser = Browser(
     use_cloud=True,  # Automatically provisions a cloud browser
 )
-
 agent = Agent(
-    task="Your task here",
+    task="Find the number of stars of the browser-use repo",
     llm=ChatBrowserUse(),
     browser=browser,
 )
+agent.run_sync()
 ```
 
+**Optional: Follow the link in the console to watch the remote browser.**
 
+Check out the [cloud docs](https://docs.cloud.browser-use.com) for more!
+
+<br/><br/>
 
 # Demos
 
