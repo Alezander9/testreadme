@@ -16,8 +16,11 @@
 
 <div align="center">
 Demos
+
 [![Docs](https://img.shields.io/badge/Docs-📕-blue?style=for-the-badge)](https://docs.browser-use.com)
+
 Blog
+
 [![Merch store](https://img.shields.io/badge/Merch_store-👕-blue)](https://browsermerch.com)
 
 DATE-TIME
