@@ -4,10 +4,16 @@
   <img alt="Shows a black Browser Use Logo in light color mode and a white one in dark color mode." src="https://github.com/user-attachments/assets/774a46d5-27a0-490c-b7d0-e65fcbbfa358"  width="full">
 </picture>
 
-<h1 align="center">Enable AI to control your browser</h1>
+<h1 align="center">The AI browser agent</h1>
+
+<div align="center">
 
 [![Docs](https://img.shields.io/badge/Docs-📕-blue?style=for-the-badge)](https://docs.browser-use.com)
 [![Browser-use cloud](https://img.shields.io/badge/Browser_Use_Cloud-☁️-blue?style=for-the-badge&logo=rocket&logoColor=white)](https://cloud.browser-use.com)
+
+</div>
+
+<div align="center">
 
 [![Discord](https://img.shields.io/discord/1303749220842340412?color=7289DA&label=Discord&logo=discord&logoColor=white)](https://link.browser-use.com/discord)
 [![Twitter Follow](https://img.shields.io/twitter/follow/Gregor?style=social)](https://x.com/intent/user?screen_name=gregpr07)
@@ -15,9 +21,13 @@
 [![Merch store](https://img.shields.io/badge/Merch_store-👕-blue)](https://browsermerch.com)
 [![Weave Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fapp.workweave.ai%2Fapi%2Frepository%2Fbadge%2Forg_T5Pvn3UBswTHIsN1dWS3voPg%2F881458615&labelColor=#EC6341)](https://app.workweave.ai/reports/repository/org_T5Pvn3UBswTHIsN1dWS3voPg/881458615)
 
+</div>
 
 
 
+
+
+<div align="center">
 
 <!-- Keep these links. Translations will automatically update with the README. -->
 [Deutsch](https://www.readme-i18n.com/browser-use/browser-use?lang=de) |
@@ -28,6 +38,8 @@
 [Português](https://www.readme-i18n.com/browser-use/browser-use?lang=pt) |
 [Русский](https://www.readme-i18n.com/browser-use/browser-use?lang=ru) |
 [中文](https://www.readme-i18n.com/browser-use/browser-use?lang=zh)
+
+</div>
 
 
 # 🤖 Quickstart
