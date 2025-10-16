@@ -120,14 +120,13 @@ agent = Agent(
 
 ![Job Application Demo](https://github.com/user-attachments/assets/57865ee6-6004-49d5-b2c2-6dff39ec2ba9)
 
-<br/><br/>
-
 See [more examples](https://docs.browser-use.com/examples) and give us a star!
 
-
 <br/><br/>
 
-# Integrations, cloud hosting, secrets, custom tools, MCP, and more on our [Documentation](https://docs.browser-use.com)
+📖 Integrations, cloud hosting, secrets, custom tools, MCP, and more on our [Documentation](https://docs.browser-use.com)
+
+<br/><br/>
 
 <div align="center">
   
