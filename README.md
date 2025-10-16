@@ -1,46 +1,142 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./static/browser-use-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="./static/browser-use.png">
+  <img alt="Shows a black Browser Use Logo in light color mode and a white one in dark color mode." src="./static/browser-use.png"  width="full">
+</picture>
+
+<h1 align="center">Enable AI to control your browser</h1>
+
+[![Docs](https://img.shields.io/badge/Docs-📕-blue?style=for-the-badge)](https://docs.browser-use.com)
+[![Browser-use cloud](https://img.shields.io/badge/Browser_Use_Cloud-☁️-blue?style=for-the-badge&logo=rocket&logoColor=white)](https://cloud.browser-use.com)
+
+[![Discord](https://img.shields.io/discord/1303749220842340412?color=7289DA&label=Discord&logo=discord&logoColor=white)](https://link.browser-use.com/discord)
+[![Twitter Follow](https://img.shields.io/twitter/follow/Gregor?style=social)](https://x.com/intent/user?screen_name=gregpr07)
+[![Twitter Follow](https://img.shields.io/twitter/follow/Magnus?style=social)](https://x.com/intent/user?screen_name=mamagnus00)
+[![Merch store](https://img.shields.io/badge/Merch_store-👕-blue)](https://browsermerch.com)
+[![Weave Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fapp.workweave.ai%2Fapi%2Frepository%2Fbadge%2Forg_T5Pvn3UBswTHIsN1dWS3voPg%2F881458615&labelColor=#EC6341)](https://app.workweave.ai/reports/repository/org_T5Pvn3UBswTHIsN1dWS3voPg/881458615)
+
+
+
+
+
+<!-- Keep these links. Translations will automatically update with the README. -->
+[Deutsch](https://www.readme-i18n.com/browser-use/browser-use?lang=de) |
+[Español](https://www.readme-i18n.com/browser-use/browser-use?lang=es) |
+[français](https://www.readme-i18n.com/browser-use/browser-use?lang=fr) |
+[日本語](https://www.readme-i18n.com/browser-use/browser-use?lang=ja) |
+[한국어](https://www.readme-i18n.com/browser-use/browser-use?lang=ko) |
+[Português](https://www.readme-i18n.com/browser-use/browser-use?lang=pt) |
+[Русский](https://www.readme-i18n.com/browser-use/browser-use?lang=ru) |
+[中文](https://www.readme-i18n.com/browser-use/browser-use?lang=zh)
+
+
+# 🤖 Quickstart
+
+With uv (Python>=3.11):
+
+```bash
+#  We ship every day - use the latest version!
+uv pip install browser-use
+```
+
+Download chromium using playwright's shortcut:
+
+```bash
+uvx playwright install chromium --with-deps --no-shell
+```
+
+Get your API key from [Browser Use Cloud](https://cloud.browser-use.com/dashboard/api) and add it to your `.env` file (new signups get $10 free credits via OAuth or $1 via email):
+
+```bash
+BROWSER_USE_API_KEY=your-key
+```
+
+Run your first agent:
+
+```python
+from browser_use import Agent, ChatBrowserUse
+
+agent = Agent(
+    task="Find the number of stars of the browser-use repo",
+    llm=ChatBrowserUse(),
+)
+agent.run_sync()
+```
+
+Check out the [library docs](https://docs.browser-use.com) and [cloud docs](https://docs.cloud.browser-use.com) for more settings.
+
+
+## Stealth Browser Infrastructure
+
+Want to bypass Cloudflare, or any other anti-bot protection?
+
+Simply go to [Browser Use Cloud](https://docs.cloud.browser-use.com) grab a `BROWSER_USE_API_KEY` and use the `use_cloud` parameter.
+
+```python
+from browser_use import Agent, Browser
+from browser_use import ChatBrowserUse
+
+# Use Browser-Use cloud browser service
+browser = Browser(
+    use_cloud=True,  # Automatically provisions a cloud browser
+)
+
+agent = Agent(
+    task="Your task here",
+    llm=ChatBrowserUse(),
+    browser=browser,
+)
+```
+
+
+
 # Demos
 
-![](https://github.com/user-attachments/assets/a0ffd23d-9a11-4368-8893-b092703abc14)
+[Task](https://github.com/browser-use/browser-use/blob/main/examples/use-cases/shopping.py): Add grocery items to cart, and checkout.
 
-https://github.com/user-attachments/assets/a0ffd23d-9a11-4368-8893-b092703abc14
+[![AI Did My Groceries](https://github.com/user-attachments/assets/a0ffd23d-9a11-4368-8893-b092703abc14)](https://www.youtube.com/watch?v=L2Ya9PYNns8)
 
-<img src="https://github.com/user-attachments/assets/a0ffd23d-9a11-4368-8893-b092703abc14" alt="alt"> #
+<br/><br/>
 
-https://github.com/user-attachments/assets/171fb4d6-0355-46f2-863e-edb04a828d04
+
+[Task](https://github.com/browser-use/browser-use/blob/main/examples/use-cases/find_and_apply_to_jobs.py): Read my CV & find ML jobs, save them to a file, and then start applying for them in new tabs, if you need help, ask me.
 
 ![Job Application Demo](https://github.com/user-attachments/assets/57865ee6-6004-49d5-b2c2-6dff39ec2ba9)
 
-<svg width="88" height="48" viewBox="0 0 88 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="path-1-inside-1_926_2269" fill="white">
-<path d="M0 0H4V4H0V0Z"/>
-</mask>
-<path d="M0 0V-1H-1V0H0ZM0 0V1H4V0V-1H0V0ZM0 4H1V0H0H-1V4H0Z" fill="#52525B" mask="url(#path-1-inside-1_926_2269)">
-  <animate attributeName="fill" values="#52525B;#52525B;#FE750E;#52525B" keyTimes="0;0.1;0.55;1" dur="2s" repeatCount="indefinite" />
-  <animateTransform attributeName="transform" type="translate" values="0,0;0,0;2,2;0,0" keyTimes="0;0.1;0.55;1" dur="2s" repeatCount="indefinite" />
-</path>
-<mask id="path-3-inside-2_926_2269" fill="white">
-<path d="M0 44H4V48H0V44Z"/>
-</mask>
-<path d="M0 48H-1V49H0V48ZM4 48V47H0V48V49H4V48ZM0 48H1V44H0H-1V48H0Z" fill="#52525B" mask="url(#path-3-inside-2_926_2269)">
-  <animate attributeName="fill" values="#52525B;#52525B;#FE750E;#52525B" keyTimes="0;0.1;0.55;1" dur="2s" repeatCount="indefinite" />
-  <animateTransform attributeName="transform" type="translate" values="0,0;0,0;2,-2;0,0" keyTimes="0;0.1;0.55;1" dur="2s" repeatCount="indefinite" />
-</path>
-<rect x="4" y="4" width="80" height="40" rx="20" fill="#FE750E">
-  <animate attributeName="fill" values="#FE750E;#FE750E;#DB6103;#FE750E" keyTimes="0;0.1;0.55;1" dur="2s" repeatCount="indefinite" />
-</rect>
-<path d="M24.848 30.256C23.9307 30.256 23.152 30.016 22.512 29.536C21.8827 29.056 21.4027 28.3733 21.072 27.488C20.7413 26.6027 20.576 25.552 20.576 24.336C20.576 23.1093 20.7413 22.0533 21.072 21.168C21.4027 20.2827 21.8827 19.6 22.512 19.12C23.152 18.6293 23.9307 18.384 24.848 18.384C25.8827 18.384 26.752 18.7253 27.456 19.408C28.1707 20.0907 28.64 21.0453 28.864 22.272L27.104 22.368C26.944 21.5787 26.6613 20.9813 26.256 20.576C25.8613 20.16 25.392 19.952 24.848 19.952C24.2933 19.952 23.8293 20.1227 23.456 20.464C23.0827 20.8053 22.8 21.3013 22.608 21.952C22.416 22.6027 22.32 23.3973 22.32 24.336C22.32 25.264 22.416 26.0533 22.608 26.704C22.8 27.344 23.0827 27.8347 23.456 28.176C23.8293 28.5173 24.2933 28.688 24.848 28.688C25.4347 28.688 25.936 28.464 26.352 28.016C26.768 27.568 27.0453 26.912 27.184 26.048L28.928 26.128C28.736 27.4293 28.2827 28.4427 27.568 29.168C26.8533 29.8933 25.9467 30.256 24.848 30.256ZM31.1618 30V18.64H32.8418V29.36L31.8178 28.416H38.2658V30H31.1618ZM43.9875 30.256C43.0808 30.256 42.3128 30.0267 41.6835 29.568C41.0648 29.1093 40.5902 28.4373 40.2595 27.552C39.9288 26.6667 39.7635 25.5947 39.7635 24.336C39.7635 23.056 39.9288 21.9733 40.2595 21.088C40.5902 20.2027 41.0648 19.5307 41.6835 19.072C42.3128 18.6133 43.0808 18.384 43.9875 18.384C44.8942 18.384 45.6622 18.6133 46.2915 19.072C46.9208 19.5307 47.3955 20.2027 47.7155 21.088C48.0462 21.9733 48.2115 23.056 48.2115 24.336C48.2115 25.5947 48.0462 26.6667 47.7155 27.552C47.3955 28.4373 46.9208 29.1093 46.2915 29.568C45.6622 30.0267 44.8942 30.256 43.9875 30.256ZM43.9875 28.688C44.5208 28.688 44.9688 28.528 45.3315 28.208C45.7048 27.888 45.9875 27.4027 46.1795 26.752C46.3715 26.1013 46.4675 25.296 46.4675 24.336C46.4675 23.376 46.3715 22.5707 46.1795 21.92C45.9875 21.2587 45.7048 20.768 45.3315 20.448C44.9688 20.1173 44.5208 19.952 43.9875 19.952C43.4542 19.952 43.0008 20.1173 42.6275 20.448C42.2648 20.768 41.9875 21.2587 41.7955 21.92C41.6035 22.5707 41.5075 23.376 41.5075 24.336C41.5075 25.296 41.6035 26.1013 41.7955 26.752C41.9875 27.4027 42.2648 27.888 42.6275 28.208C43.0008 28.528 43.4542 28.688 43.9875 28.688ZM53.5813 30.256C52.3653 30.256 51.4159 29.8827 50.7333 29.136C50.0506 28.3893 49.7093 27.36 49.7093 26.048V18.64H51.3893V26.112C51.3893 26.944 51.5759 27.584 51.9493 28.032C52.3226 28.4693 52.8666 28.688 53.5813 28.688C54.2959 28.688 54.8399 28.4693 55.2133 28.032C55.5866 27.584 55.7733 26.944 55.7733 26.112V18.64H57.4533V26.048C57.4533 27.36 57.1119 28.3893 56.4293 29.136C55.7466 29.8827 54.7973 30.256 53.5813 30.256ZM59.703 30V18.64H62.471C63.4737 18.64 64.343 18.864 65.079 19.312C65.8257 19.7493 66.3963 20.3947 66.791 21.248C67.1963 22.0907 67.399 23.12 67.399 24.336C67.399 25.552 67.1963 26.5813 66.791 27.424C66.3963 28.2667 65.8257 28.9067 65.079 29.344C64.343 29.7813 63.4737 30 62.471 30H59.703ZM61.383 28.416H62.423C63.4577 28.416 64.2523 28.08 64.807 27.408C65.3723 26.7253 65.655 25.7013 65.655 24.336C65.655 22.9707 65.3723 21.9467 64.807 21.264C64.2523 20.5707 63.4577 20.224 62.423 20.224H61.383V28.416Z" fill="#FAFAF9"/>
-<mask id="path-7-inside-3_926_2269" fill="white">
-<path d="M84 0H88V4H84V0Z"/>
-</mask>
-<path d="M88 0H89V-1H88V0ZM84 0V1H88V0V-1H84V0ZM88 0H87V4H88H89V0H88Z" fill="#52525B" mask="url(#path-7-inside-3_926_2269)">
-  <animate attributeName="fill" values="#52525B;#52525B;#FE750E;#52525B" keyTimes="0;0.1;0.55;1" dur="2s" repeatCount="indefinite" />
-  <animateTransform attributeName="transform" type="translate" values="0,0;0,0;-2,2;0,0" keyTimes="0;0.1;0.55;1" dur="2s" repeatCount="indefinite" />
-</path>
-<mask id="path-9-inside-4_926_2269" fill="white">
-<path d="M84 44H88V48H84V44Z"/>
-</mask>
-<path d="M88 48V49H89V48H88ZM88 44H87V48H88H89V44H88ZM88 48V47H84V48V49H88V48Z" fill="#52525B" mask="url(#path-9-inside-4_926_2269)">
-  <animate attributeName="fill" values="#52525B;#52525B;#FE750E;#52525B" keyTimes="0;0.1;0.55;1" dur="2s" repeatCount="indefinite" />
-  <animateTransform attributeName="transform" type="translate" values="0,0;0,0;-2,-2;0,0" keyTimes="0;0.1;0.55;1" dur="2s" repeatCount="indefinite" />
-</path>
-</svg>
+<br/><br/>
+
+See [more examples](https://docs.browser-use.com/examples) and give us a star!
+
+
+<br/><br/>
+## MCP Integration
+
+This gives Claude Desktop access to browser automation tools for web scraping, form filling, and more. See the [MCP docs](https://docs.browser-use.com/customize/mcp-server).
+```json
+{
+  "mcpServers": {
+    "browser-use": {
+      "command": "uvx",
+      "args": ["browser-use[cli]", "--mcp"],
+      "env": {
+        "OPENAI_API_KEY": "sk-..."
+      }
+    }
+  }
+}
+```
+
+<div align="center">
+  
+**Tell your computer what to do, and it gets it done.**
+
+<img src="https://github.com/user-attachments/assets/06fa3078-8461-4560-b434-445510c1766f" width="400"/>
+
+[![Twitter Follow](https://img.shields.io/twitter/follow/Magnus?style=social)](https://x.com/intent/user?screen_name=mamagnus00)
+[![Twitter Follow](https://img.shields.io/twitter/follow/Gregor?style=social)](https://x.com/intent/user?screen_name=gregpr07)
+
+</div>
+
+<div align="center">
+Made with ❤️ in Zurich and San Francisco
+ </div>
