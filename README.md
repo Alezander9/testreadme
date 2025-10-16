@@ -101,7 +101,7 @@ Check out the [library docs](https://docs.browser-use.com) for more!
 
 Want to bypass anti-bot detection or run a fleet of agents on the cloud? Use our hosted stealth browsers.
 
-**Follow the first three steps above, and pass in a Browser made with the `use_cloud` parameter.**
+**Follow steps 1-3 above, and pass in a Browser made with the `use_cloud` parameter.**
 ```python
 from browser_use import Agent, Browser, ChatBrowserUse
 
