@@ -4,6 +4,8 @@
   <img alt="Shows a black Browser Use Logo in light color mode and a white one in dark color mode." src="https://github.com/user-attachments/assets/774a46d5-27a0-490c-b7d0-e65fcbbfa358"  width="full">
 </picture>
 
+---
+
 <h1 align="center" style="font-size: 48px;">The AI browser agent</h1>
 
 
