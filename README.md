@@ -9,21 +9,21 @@
     <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/9955dda9-ede3-4971-8ee0-91cbc3850125"">
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/6797d09b-8ac3-4cb9-ba07-b289e080765a">
     <img alt="The AI browser agent." src="https://github.com/user-attachments/assets/6797d09b-8ac3-4cb9-ba07-b289e080765a"  width="400">
-    </picture>4
+    </picture>
 </div>
 
 ---
 
 <div align="center">
 
-[![Demos](https://github.com/user-attachments/assets/2ef63c11-0fa4-47f6-a57f-91f99daaab20)](LINK TO DEMOS SECTION HERE)
+[![Demos](https://github.com/user-attachments/assets/2ef63c11-0fa4-47f6-a57f-91f99daaab20)](#demos)
 [![Docs](https://github.com/user-attachments/assets/19401d69-1c9a-4e92-a46f-2e2c5e2f65ee)](https://docs.browser-use.com)
 [![Blog](https://github.com/user-attachments/assets/872ee6ac-7685-4677-b902-d99bb6bbb6ee)](https://browser-use.com/posts)
 [![Merch](https://github.com/user-attachments/assets/467c4b14-ecac-4bc4-8e80-d7221d89cb16)](https://browsermerch.com)
 
 <!-- Space here -->
 
-[![Github Stars](https://github.com/user-attachments/assets/b4cc5009-f73b-4afb-a8c1-c2ec34041377)](LINK TO STAR THE REPO HERE)
+[![Github Stars](https://github.com/user-attachments/assets/b4cc5009-f73b-4afb-a8c1-c2ec34041377)](https://github.com/browser-use/browser-use)
 [![Twitter](https://github.com/user-attachments/assets/1b164290-bdaa-4c24-bb06-14f3c7b57173)](https://x.com/intent/user?screen_name=browser_use)
 [![Discord](https://github.com/user-attachments/assets/619ec341-323d-4691-9afe-6c5bab590f5a)](https://link.browser-use.com/discord)
 [![Browser-Use Cloud](https://github.com/user-attachments/assets/74aac4be-3417-42a7-8174-19d88e9720b7)](https://cloud.browser-use.com)
