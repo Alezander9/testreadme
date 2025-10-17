@@ -14,28 +14,11 @@
 
 ---
 
-<table width="100%" cellpadding="0" cellspacing="0" border="0">
-<tr>
-<td align="left" valign="middle" height="48">
-  <a href="#demos"><img src="https://github.com/user-attachments/assets/2ef63c11-0fa4-47f6-a57f-91f99daaab20" height="20" alt="Demos"></a>
-  <img width="16" height="1" alt="">
-  <a href="https://docs.browser-use.com"><img src="https://github.com/user-attachments/assets/19401d69-1c9a-4e92-a46f-2e2c5e2f65ee" height="20" alt="Docs"></a>
-  <img width="16" height="1" alt="">
-  <a href="https://browser-use.com/posts"><img src="https://github.com/user-attachments/assets/872ee6ac-7685-4677-b902-d99bb6bbb6ee" height="20" alt="Blog"></a>
-  <img width="16" height="1" alt="">
-  <a href="https://browsermerch.com"><img src="https://github.com/user-attachments/assets/467c4b14-ecac-4bc4-8e80-d7221d89cb16" height="20" alt="Merch"></a>
-</td>
-<td align="right" valign="middle" height="48">
-  <a href="https://github.com/browser-use/browser-use"><img src="https://github.com/user-attachments/assets/b4cc5009-f73b-4afb-a8c1-c2ec34041377" height="20" alt="Github Stars"></a>
-  <img width="16" height="1" alt="">
-  <a href="https://x.com/intent/user?screen_name=browser_use"><img src="https://github.com/user-attachments/assets/1b164290-bdaa-4c24-bb06-14f3c7b57173" height="20" alt="Twitter"></a>
-  <img width="16" height="1" alt="">
-  <a href="https://link.browser-use.com/discord"><img src="https://github.com/user-attachments/assets/619ec341-323d-4691-9afe-6c5bab590f5a" height="20" alt="Discord"></a>
-  <img width="16" height="1" alt="">
-  <a href="https://cloud.browser-use.com"><img src="https://github.com/user-attachments/assets/74aac4be-3417-42a7-8174-19d88e9720b7" height="48" alt="Browser-Use Cloud"></a>
-</td>
-</tr>
-</table>
+<div align="center">
+
+<a href="#demos"><img src="https://github.com/user-attachments/assets/2ef63c11-0fa4-47f6-a57f-91f99daaab20" height="20" alt="Demos"></a><img width="24" height="1" alt=""><a href="https://docs.browser-use.com"><img src="https://github.com/user-attachments/assets/19401d69-1c9a-4e92-a46f-2e2c5e2f65ee" height="20" alt="Docs"></a><img width="24" height="1" alt=""><a href="https://browser-use.com/posts"><img src="https://github.com/user-attachments/assets/872ee6ac-7685-4677-b902-d99bb6bbb6ee" height="20" alt="Blog"></a><img width="24" height="1" alt=""><a href="https://browsermerch.com"><img src="https://github.com/user-attachments/assets/467c4b14-ecac-4bc4-8e80-d7221d89cb16" height="20" alt="Merch"></a><img width="200" height="1" alt=""><a href="https://github.com/browser-use/browser-use"><img src="https://github.com/user-attachments/assets/b4cc5009-f73b-4afb-a8c1-c2ec34041377" height="20" alt="Github Stars"></a><img width="24" height="1" alt=""><a href="https://x.com/intent/user?screen_name=browser_use"><img src="https://github.com/user-attachments/assets/1b164290-bdaa-4c24-bb06-14f3c7b57173" height="20" alt="Twitter"></a><img width="24" height="1" alt=""><a href="https://link.browser-use.com/discord"><img src="https://github.com/user-attachments/assets/619ec341-323d-4691-9afe-6c5bab590f5a" height="20" alt="Discord"></a><img width="24" height="1" alt=""><a href="https://cloud.browser-use.com"><img src="https://github.com/user-attachments/assets/74aac4be-3417-42a7-8174-19d88e9720b7" height="48" alt="Browser-Use Cloud"></a>
+
+</div>
 
 <div align="center">
 
