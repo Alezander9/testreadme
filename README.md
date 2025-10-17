@@ -15,22 +15,18 @@
 ---
 
 <div align="center">
-Demos
 
-[![Docs](https://img.shields.io/badge/Docs-📕-blue?style=for-the-badge)](https://docs.browser-use.com)
+[![Demos](https://github.com/user-attachments/assets/2ef63c11-0fa4-47f6-a57f-91f99daaab20)](LINK TO DEMOS SECTION HERE)
+[![Docs](https://github.com/user-attachments/assets/19401d69-1c9a-4e92-a46f-2e2c5e2f65ee)](https://docs.browser-use.com)
+[![Blog](https://github.com/user-attachments/assets/872ee6ac-7685-4677-b902-d99bb6bbb6ee)](https://browser-use.com/posts)
+[![Merch](https://github.com/user-attachments/assets/467c4b14-ecac-4bc4-8e80-d7221d89cb16)](https://browsermerch.com)
 
-Blog
+<!-- Space here -->
 
-[![Merch store](https://img.shields.io/badge/Merch_store-👕-blue)](https://browsermerch.com)
-
-DATE-TIME
-
-STARS
-[![Weave Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fapp.workweave.ai%2Fapi%2Frepository%2Fbadge%2Forg_T5Pvn3UBswTHIsN1dWS3voPg%2F881458615&labelColor=#EC6341)](https://app.workweave.ai/reports/repository/org_T5Pvn3UBswTHIsN1dWS3voPg/881458615)
-[![Twitter Follow](https://img.shields.io/twitter/follow/browser_use?style=social)](https://x.com/intent/user?screen_name=browser_use)
-[![Discord](https://img.shields.io/discord/1303749220842340412?color=7289DA&label=Discord&logo=discord&logoColor=white)](https://link.browser-use.com/discord)
-
-[![Browser-use cloud](https://img.shields.io/badge/Browser_Use_Cloud-☁️-blue?style=for-the-badge&logo=rocket&logoColor=white)](https://cloud.browser-use.com)
+[![Github Stars](https://github.com/user-attachments/assets/b4cc5009-f73b-4afb-a8c1-c2ec34041377)](LINK TO STAR THE REPO HERE)
+[![Twitter](https://github.com/user-attachments/assets/1b164290-bdaa-4c24-bb06-14f3c7b57173)](https://x.com/intent/user?screen_name=browser_use)
+[![Discord](https://github.com/user-attachments/assets/619ec341-323d-4691-9afe-6c5bab590f5a)](https://link.browser-use.com/discord)
+[![Browser-Use Cloud](https://github.com/user-attachments/assets/74aac4be-3417-42a7-8174-19d88e9720b7)](https://cloud.browser-use.com)
 </div>
 
 <div align="center">
