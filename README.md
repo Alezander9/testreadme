@@ -16,7 +16,7 @@
 
 <div align="center">
 
-<a href="#demos"><img src="https://dapper-butterfly-915.convex.site/badges/demos" height="20" alt="Demos"></a>
+<a href="#demos"><img src="https://dapper-butterfly-915.convex.site/badges/demos" alt="Demos"></a>
 <img width="24" height="1" alt="">
 <a href="https://docs.browser-use.com"><img src="https://dapper-butterfly-915.convex.site/badges/docs" height="20" alt="Docs"></a>
 <img width="24" height="1" alt="">
