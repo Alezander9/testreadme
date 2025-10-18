@@ -12,6 +12,8 @@
     </picture>
 </div>
 
+</br>
+
 <div align="center">
 
 <!-- Keep these links. Translations will automatically update with the README. -->
@@ -25,8 +27,6 @@
 [中文](https://www.readme-i18n.com/browser-use/browser-use?lang=zh)
 
 </div>
-
-</br>
 
 ---
 
