@@ -127,7 +127,7 @@ Check out the [cloud docs](https://docs.cloud.browser-use.com) for more!
 
 
 ### 📋 Form-Filling
-Task = "Fill in this job application with my resume and information."
+#### Task = "Fill in this job application with my resume and information."
 ![Job Application Demo](https://github.com/user-attachments/assets/57865ee6-6004-49d5-b2c2-6dff39ec2ba9)
 [Example code ↗](https://github.com/browser-use/browser-use/blob/main/examples/use-cases/find_and_apply_to_jobs.py)
 
@@ -141,14 +141,15 @@ https://github.com/user-attachments/assets/a6813fa7-4a7c-40a6-b4aa-382bf88b1850
 
 
 ### 💻 Personal-Assistant. 
-`Task = "Help me find parts for a custom PC."`
+#### Task = "Help me find parts for a custom PC."
 
 https://github.com/user-attachments/assets/ac34f75c-057a-43ef-ad06-5b2c9d42bf06
 
 [Example code ↗](https://github.com/browser-use/browser-use/blob/main/examples/use-cases/pcpartpicker.py)
 
+<br/>
 
-See [more examples](https://docs.browser-use.com/examples) and give us a star!
+## See [more examples here ↗](https://docs.browser-use.com/examples) and give us a star!
 
 <br/>
 
