@@ -18,17 +18,17 @@
 
 <a href="#demos"><img src="https://dapper-butterfly-915.convex.site/badges/demos" alt="Demos"></a>
 <img width="24" height="1" alt="">
-<a href="https://docs.browser-use.com"><img src="https://dapper-butterfly-915.convex.site/badges/docs" height="20" alt="Docs"></a>
+<a href="https://docs.browser-use.com"><img src="https://dapper-butterfly-915.convex.site/badges/docs" alt="Docs"></a>
 <img width="24" height="1" alt="">
-<a href="https://browser-use.com/posts"><img src="https://dapper-butterfly-915.convex.site/badges/blog" height="20" alt="Blog">
+<a href="https://browser-use.com/posts"><img src="https://dapper-butterfly-915.convex.site/badges/blog" alt="Blog">
 </a><img width="24" height="1" alt="">
-<a href="https://browsermerch.com"><img src="https://dapper-butterfly-915.convex.site/badges/merch" height="20" alt="Merch">
+<a href="https://browsermerch.com"><img src="https://dapper-butterfly-915.convex.site/badges/merch" alt="Merch">
 </a><img width="200" height="1" alt="">
-<a href="https://github.com/browser-use/browser-use"><img src="https://dapper-butterfly-915.convex.site/badges/github" height="20" alt="Github Stars">
+<a href="https://github.com/browser-use/browser-use"><img src="https://dapper-butterfly-915.convex.site/badges/github" alt="Github Stars">
 </a><img width="24" height="1" alt="">
-<a href="https://x.com/intent/user?screen_name=browser_use"><img src="https://dapper-butterfly-915.convex.site/badges/twitter" height="20" alt="Twitter">
+<a href="https://x.com/intent/user?screen_name=browser_use"><img src="https://dapper-butterfly-915.convex.site/badges/twitter" alt="Twitter">
 </a><img width="24" height="1" alt="">
-<a href="https://link.browser-use.com/discord"><img src="https://dapper-butterfly-915.convex.site/badges/discord" height="20" alt="Discord"></a>
+<a href="https://link.browser-use.com/discord"><img src="https://dapper-butterfly-915.convex.site/badges/discord" alt="Discord"></a>
 <img width="24" height="1" alt="">
 <a href="https://cloud.browser-use.com"><img src="https://dapper-butterfly-915.convex.site/badges/cloud" height="48" alt="Browser-Use Cloud"></a>
 
