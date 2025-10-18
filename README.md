@@ -125,24 +125,24 @@ Check out the [cloud docs](https://docs.cloud.browser-use.com) for more!
 
 # Demos
 
-[Task](https://github.com/browser-use/browser-use/blob/main/examples/use-cases/shopping.py): Add grocery items to cart, and checkout.
 
-[![AI Did My Groceries](https://github.com/user-attachments/assets/a0ffd23d-9a11-4368-8893-b092703abc14)](https://www.youtube.com/watch?v=L2Ya9PYNns8)
-
-<br/>
-
-
-[Task](https://github.com/browser-use/browser-use/blob/main/examples/use-cases/find_and_apply_to_jobs.py): Read my CV & find ML jobs, save them to a file, and then start applying for them in new tabs, if you need help, ask me.
-
+### 📋 Form-Filling
+Task = Read my CV & find ML jobs, save them to a file, and then start applying for them in new tabs, if you need help, ask me.
 ![Job Application Demo](https://github.com/user-attachments/assets/57865ee6-6004-49d5-b2c2-6dff39ec2ba9)
+[Example code ↗](https://github.com/browser-use/browser-use/blob/main/examples/use-cases/find_and_apply_to_jobs.py)
 
-[Task](https://github.com/browser-use/browser-use/blob/main/examples/use-cases/find_and_apply_to_jobs.py): Read my CV & find ML jobs, save them to a file, and then start applying for them in new tabs, if you need help, ask me.
 
+### 🍎 Grocery-Shopping
+Task = Read my CV & find ML jobs, save them to a file, and then start applying for them in new tabs, if you need help, ask me.
 https://github.com/user-attachments/assets/a6813fa7-4a7c-40a6-b4aa-382bf88b1850
+[Example code ↗](https://github.com/browser-use/browser-use/blob/main/examples/use-cases/buy_groceries.py)
 
-[Task](https://github.com/browser-use/browser-use/blob/main/examples/use-cases/find_and_apply_to_jobs.py): Read my CV & find ML jobs, save them to a file, and then start applying for them in new tabs, if you need help, ask me.
 
+### 💻 Personal-Assistant
+Task = Read my CV & find ML jobs, save them to a file, and then start applying for them in new tabs, if you need help, ask me.
 https://github.com/user-attachments/assets/ac34f75c-057a-43ef-ad06-5b2c9d42bf06
+[Example code ↗](https://github.com/browser-use/browser-use/blob/main/examples/use-cases/pcpartpicker.py)
+
 
 See [more examples](https://docs.browser-use.com/examples) and give us a star!
 
