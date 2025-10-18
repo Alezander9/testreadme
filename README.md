@@ -34,6 +34,8 @@
 
 <div align="center">
 
+</br>
+
 <!-- Keep these links. Translations will automatically update with the README. -->
 [Deutsch](https://www.readme-i18n.com/browser-use/browser-use?lang=de) |
 [Español](https://www.readme-i18n.com/browser-use/browser-use?lang=es) |
