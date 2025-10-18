@@ -129,7 +129,7 @@ Check out the [cloud docs](https://docs.cloud.browser-use.com) for more!
 ### 📋 Form-Filling
 #### Task = "Fill in this job application with my resume and information."
 ![Job Application Demo](https://github.com/user-attachments/assets/57865ee6-6004-49d5-b2c2-6dff39ec2ba9)
-[Example code ↗](https://github.com/browser-use/browser-use/blob/main/examples/use-cases/find_and_apply_to_jobs.py)
+[Example code ↗](https://github.com/browser-use/browser-use/blob/main/examples/use-cases/apply_to_job.py)
 
 
 ### 🍎 Grocery-Shopping
