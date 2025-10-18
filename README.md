@@ -16,19 +16,19 @@
 
 <div align="center">
 <a href="#demos"><img src="https://dapper-butterfly-915.convex.site/badges/demos" alt="Demos"></a>
-<img width="24" height="1" alt="">
+<img width="16" height="1" alt="">
 <a href="https://docs.browser-use.com"><img src="https://dapper-butterfly-915.convex.site/badges/docs" alt="Docs"></a>
-<img width="24" height="1" alt="">
+<img width="16" height="1" alt="">
 <a href="https://browser-use.com/posts"><img src="https://dapper-butterfly-915.convex.site/badges/blog" alt="Blog"></a>
-<img width="24" height="1" alt="">
+<img width="16" height="1" alt="">
 <a href="https://browsermerch.com"><img src="https://dapper-butterfly-915.convex.site/badges/merch" alt="Merch"></a>
 <img width="100" height="1" alt="">
 <a href="https://github.com/browser-use/browser-use"><img src="https://dapper-butterfly-915.convex.site/badges/github" alt="Github Stars"></a>
-<img width="12" height="1" alt="">
+<img width="4" height="1" alt="">
 <a href="https://x.com/intent/user?screen_name=browser_use"><img src="https://dapper-butterfly-915.convex.site/badges/twitter" alt="Twitter"></a>
-<img width="12 height="1" alt="">
+<img width="4 height="1" alt="">
 <a href="https://link.browser-use.com/discord"><img src="https://dapper-butterfly-915.convex.site/badges/discord" alt="Discord"></a>
-<img width="12" height="1" alt="">
+<img width="4" height="1" alt="">
 <a href="https://cloud.browser-use.com"><img src="https://dapper-butterfly-915.convex.site/badges/cloud" height="48" alt="Browser-Use Cloud"></a>
 </div>
 
