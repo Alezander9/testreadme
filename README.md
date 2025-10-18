@@ -133,14 +133,15 @@ Task = "Fill in this job application with my resume and information."
 
 
 ### 🍎 Grocery-Shopping
-Task = "Put this list of items into my instacart."
+#### `Task = "Put this list of items into my instacart."`
 
 https://github.com/user-attachments/assets/a6813fa7-4a7c-40a6-b4aa-382bf88b1850
 
 [Example code ↗](https://github.com/browser-use/browser-use/blob/main/examples/use-cases/buy_groceries.py)
 
 
-### 💻 Personal-Assistant. Task = "Help me find parts for a custom PC."
+### 💻 Personal-Assistant. 
+`Task = "Help me find parts for a custom PC."`
 
 https://github.com/user-attachments/assets/ac34f75c-057a-43ef-ad06-5b2c9d42bf06
 
