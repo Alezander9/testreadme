@@ -133,7 +133,7 @@ Task = "Fill in this job application with my resume and information."
 
 
 ### 🍎 Grocery-Shopping
-#### `Task = "Put this list of items into my instacart."`
+#### Task = "Put this list of items into my instacart."
 
 https://github.com/user-attachments/assets/a6813fa7-4a7c-40a6-b4aa-382bf88b1850
 
