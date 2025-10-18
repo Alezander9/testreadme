@@ -12,6 +12,8 @@
     </picture>
 </div>
 
+<div align="center">
+
 <!-- Keep these links. Translations will automatically update with the README. -->
 [Deutsch](https://www.readme-i18n.com/browser-use/browser-use?lang=de) |
 [Español](https://www.readme-i18n.com/browser-use/browser-use?lang=es) |
@@ -45,8 +47,6 @@
 <img width="4" height="1" alt="">
 <a href="https://cloud.browser-use.com"><img src="https://media.browser-use.tools/badges/cloud" height="48" alt="Browser-Use Cloud"></a>
 </div>
-
-<div align="center">
 
 </br>
 
