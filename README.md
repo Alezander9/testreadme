@@ -147,9 +147,8 @@ https://github.com/user-attachments/assets/ac34f75c-057a-43ef-ad06-5b2c9d42bf06
 
 [Example code ↗](https://github.com/browser-use/browser-use/blob/main/examples/use-cases/pcpartpicker.py)
 
-<br/>
 
-### See [more examples here ↗](https://docs.browser-use.com/examples) and give us a star!
+### 💡See [more examples here ↗](https://docs.browser-use.com/examples) and give us a star!
 
 <br/>
 
